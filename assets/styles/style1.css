@@ -1,0 +1,415 @@
+/* GENERAL SETTINGS */
+
+:root{
+    --font:  "Alumni Sans", serif;
+    --white: #FFFFFF;
+    --gray: #939798;
+}
+
+body,html{
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--white);
+    background-color: #27373D;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ /* max-width: 320px;  */
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+/* HEADER */
+
+header{
+    margin-top: 20px;
+}
+
+.logo{
+    padding-right: 12px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 51px;
+    padding-right: 51px;
+    
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 12px;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+color:#B8A620;
+}
+
+.zagalovok h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.zagalovok{
+    text-align: center;
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+.plakat{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+.zag1 {
+ /* text-align: center; */
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 21px;
+}
+
+.zag1 h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p1{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 79px;
+}
+
+.p2{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 93px;
+    font-weight: 600;
+}
+
+.zag2 h4{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.zag2{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 245px;
+}
+
+.p3{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 70px;
+}
+
+.zaggg{
+    font-size: 14px;
+}
+
+.p4{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 96px;
+}
+
+.plakat2{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.zag3 h1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zag3{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 35px;
+}
+
+.plakat3{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.zag4 h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zag4{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 181px;
+}
+
+.p5{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 82px;
+}
+
+.p6{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 129px;
+}
+
+.plakat4{
+    padding-top: 11px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.snow{
+    padding-top: 11px;  
+    padding-left: 43px;
+    padding-right: 30px;  
+}
+.sn1{
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.zag5 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zag5{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 149px;
+}
+
+.plakat5{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.zag6 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zag6{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 38px;
+}
+
+.plakat6{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p7{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 76px;
+}
+
+.plakat7{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p8{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 51px;
+}
+
+.plakat8{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p9{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 21px;
+}
+
+.plakat9{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p10{
+    padding-top: 11px;
+    padding-left: 39px;
+    padding-right: 28px;
+}
+
+.plakat10{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    color:#636566;
+    width: 280px;
+    height: 1px;
+    margin: 35px 20px 0px 20px;
+    display: block;
+}
+
+.zag7 h3{
+   font-size: 20px;
+   color: #FFFFFF99;
+   font-weight: 400;
+}
+
+.zag7{
+    padding-top: 11px;
+    padding-left: 118px;
+    padding-right: 118px;
+}
+
+.foot-nav{
+    padding-top: 5px;  
+    padding-left: 102px;
+    padding-right: 82px;  
+}
+
+.fn{
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+    width: 40px;
+    height: 40px;
+}
+
+.foot-nav a {
+    text-decoration: none;
+   
+}
+
+/* ACCOUNT */
+
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url(https://img1.akspic.ru/crops/0/7/7/8/78770/78770-rozhdestvo-prazdnik-dekor-novyj_god-vechnozelenoe_rastenie-1920x1080.jpg);
+  }
+  
+  .login-container {
+    background-color: #363636;
+    padding: 25px;
+    border-radius: 25px;
+    opacity: 85%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 30px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #B8A620;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-form .button {
+    text-align: center;
+    background-color: #B8A620;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-weight:600;
+    font-size: 20px;
+  }
+
+.links{
+    display: flex;
+    justify-content:space-between; 
+}
+
+  .googl{
+    padding-top: 10px ;
+    display: flex;
+  }
+
+  .googl p{
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-left: 3px;
+    font-size: 12px;
+  }
+
+ .link-login{
+    text-decoration: none;
+ }
+
+.steam{
+    padding-top: 10px ;
+}
